@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:padding="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zeesh.aowprototype.UserProfileActivity"
+    tools:showIn="@layout/activity_user_profile">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/user_profile_recyclerview"></android.support.v7.widget.RecyclerView>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="10">-->
+            <!--<ImageView-->
+                <!--android:padding="@dimen/user_profile_image_padding"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/ic_person_blue_24dp"-->
+                <!--android:layout_weight="8"/>-->
+            <!--<LinearLayout-->
+                <!--android:paddingLeft="@dimen/user_profile_text_padding_left"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_weight="2">-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Nauman Ali"-->
+                    <!--android:textSize="@dimen/user_profile_text_size"-->
+                    <!--android:textColor="@color/black"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Name"-->
+                    <!--android:textSize="@dimen/user_profile_text_size2"-->
+                    <!--android:paddingBottom="@dimen/padding_bottom_user_profile"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="naumanasghar@gmail.com"-->
+                    <!--android:textSize="@dimen/user_profile_text_size"-->
+                    <!--android:textColor="@color/black"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Email"-->
+                    <!--android:textSize="@dimen/user_profile_text_size2"-->
+                    <!--android:paddingBottom="@dimen/padding_bottom_user_profile"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="090078601"-->
+                    <!--android:textSize="@dimen/user_profile_text_size"-->
+                    <!--android:textColor="@color/black"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Phone"-->
+                    <!--android:textSize="@dimen/user_profile_text_size2"-->
+                    <!--android:paddingBottom="@dimen/padding_bottom_user_profile"/>-->
+
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="10">-->
+            <!--<ImageView-->
+                <!--android:padding="@dimen/user_profile_image_padding"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/ic_branding_watermark_black_24dp"-->
+                <!--android:layout_weight="8"/>-->
+            <!--<LinearLayout-->
+                <!--android:paddingLeft="@dimen/user_profile_text_padding_left"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_weight="2">-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Microsoft"-->
+                    <!--android:textSize="@dimen/user_profile_text_size"-->
+                    <!--android:textColor="@color/black"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Brand"-->
+                    <!--android:textSize="@dimen/user_profile_text_size2"-->
+                    <!--android:paddingBottom="@dimen/padding_bottom_user_profile"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Bill Gates"-->
+                    <!--android:textSize="@dimen/user_profile_text_size"-->
+                    <!--android:textColor="@color/black"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Owner"-->
+                    <!--android:textSize="@dimen/user_profile_text_size2"-->
+                    <!--android:paddingBottom="@dimen/padding_bottom_user_profile"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="New York"-->
+                    <!--android:textSize="@dimen/user_profile_text_size"-->
+                    <!--android:textColor="@color/black"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Location"-->
+                    <!--android:textSize="@dimen/user_profile_text_size2"-->
+                    <!--android:paddingBottom="@dimen/padding_bottom_user_profile"/>-->
+
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+</android.support.v4.widget.NestedScrollView>

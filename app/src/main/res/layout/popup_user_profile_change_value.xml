@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/pv_usr_prfl_chng_vl_lable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label">
+
+    <EditText
+        android:id="@+id/pv_usr_prfl_chng_vl_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:inputType="text"
+        android:background="@drawable/shapeemail"
+        android:text="Placeholder"/>
+    </android.support.design.widget.TextInputLayout>
+
+</android.support.constraint.ConstraintLayout>
